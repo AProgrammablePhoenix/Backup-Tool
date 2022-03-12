@@ -19,6 +19,7 @@ file/directory listed above it.
 The config file supports both relative and absolute path.
 
 ## Installation
-At this moment, you will need to compile everything manually with a
-compiler C++ compiler of your choice. However, a CMake file is going to be added soon in order to simplify the compilation process, no matter
-what your platform is.
+The compilation process is managed by CMake. In order to compile the project, just
+run one of the build scripts located in the same directory as the CMakeLists.txt file
+and they will create a build folder if necessary. All the build files will be stored
+in this folder.
